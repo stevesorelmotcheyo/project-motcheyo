@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* letter-spacing: 0px; */
+}
+header
+{
+    position:sticky;
+    top: 0;
+    padding: 30px 20px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    width: 100%;
+   
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(80, 31, 194, 0.171);   
+    overflow-x: hidden;
+    min-height: auto;
+    position: relative;
+}
+li
+{
+    display: inline-block;
+    padding:0 10px;
+    font-size: 20px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul li a:hover
+{
+    border: 1px solid white;
+    transition: 0.3s ease-in-out;
+}
+h1
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px 20px;
+    text-align: center;
+    text-transform:lowercase;
+    font-weight: normal;
+}
+section
+{
+    padding: 10px 20px;
+    width: 80%;
+}
+
+section fieldset li
+{
+    font-size: 30px;
+    font-family: cursive;
+}
+legend
+{
+    font-size: 30px;
+    font-weight:900;
+}
+ p
+{
+    font-weight: normal;
+    font-size: 20px;
+    margin:10px 20px;
+}
+#liste 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+#div1
+{
+    padding: 20px;
+}
+#div1 li
+{
+    font-weight:500;
+    margin: 5px 0px;
+}
+#field
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+#first1
+{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px 1px black;
+    padding: 30px;
+    background-color: rgba(27, 94, 153, 0.089);
+
+}
+
+section a
+{
+    border: 1px solid black;
+    padding:10px 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+
+#first1 p
+{
+    font-size: 20px;
+}
+
+footer
+{
+    background-color: rgb(8, 8, 41);
+    width: 100%;
+    padding: 10px 0px;
+    position:sticky;
+    bottom: 0;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}

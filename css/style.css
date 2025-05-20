@@ -1,0 +1,98 @@
+
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.car
+{
+    width:400px;
+    /* height: 150px; */
+    position:absolute;
+    top: 600px;
+    z-index: 2000;
+}
+
+body
+{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+.premiere
+{
+  background-image: url("../image/ways.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat:repeat-x;
+  background-position: 0 0;
+  background-size: cover;
+  position: relative;
+}
+.obs
+{
+    background:linear-gradient(white,black);
+    width: 30px;
+    /* height: 130px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: last baseline;
+}
+.deuxieme
+{
+    display: flex;
+}
+#para
+{
+    font-weight:bold;
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: green;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lutin
+{
+    position:relative;
+    width: 70px;
+    z-index: 2;
+    margin-right: 40px;
+    /* margin: 20px; */
+}
+
+.cars
+{
+    width: 100px;
+    position: absolute;
+    top:640px;
+    left: 1500px;
+}
+
+
+@media screen and (max-width:450px) {
+    .car
+    {
+        width:250px;
+        /* height: 150px; */
+        position:absolute;
+        top: 550px;
+        transition: 0.1s;
+    }
+    .premiere
+    {
+        height: 100vh;
+        top: 0px;
+
+    }
+    
+}
