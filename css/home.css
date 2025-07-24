@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* letter-spacing: 0px; */
+    font-family:'Rajdhani',Poppins;
 }
 header
 {
@@ -14,25 +14,23 @@ header
     justify-content: first baseline;
     align-items: center;
     width: 100%;
-   
 }
 body
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    background-color: rgba(80, 31, 194, 0.171);   
-    overflow-x: hidden;
-    min-height: auto;
-    position: relative;
+        font-family:'Rajdhani',Poppins;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(98, 45, 163, 0.589);  
 }
 li
 {
     display: inline-block;
     padding:0 10px;
     font-size: 20px;
+    font-family:'Rajdhani';
 }
 ul li a
 {
@@ -41,7 +39,13 @@ ul li a
     border: 1px solid transparent;
     border-radius: 6px;
     padding: 10px 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Rajdhani';
+
+}
+
+ul,li
+{
+        font-family:'Rajdhani',Poppins;
 }
 
 ul li a:hover
@@ -84,6 +88,8 @@ legend
     display: flex;
     flex-direction: column;
     padding: 0 30px;
+        font-family:'Rajdhani',Poppins;
+
 }
 
 #div1
@@ -101,6 +107,12 @@ legend
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
     align-items: center;
+    font-family:'Rajdhani';
+}
+
+fieldset
+{
+    padding: 20px;
 }
 
 #first1
@@ -147,4 +159,24 @@ footer
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+
+h1
+{
+ 
+}
+
+strong
+{
+    animation:shine 1s alternate infinite ;
+    color:green;
+    font-size: 40px;
+}
+@keyframes shine {
+    
+    0%
+    {
+        color: rgb(20, 46, 196);
+    }
+  
 }
