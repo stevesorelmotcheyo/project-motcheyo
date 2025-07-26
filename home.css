@@ -17,13 +17,13 @@ header
 }
 body
 {
-        font-family:'Rajdhani',Poppins;
+  font-family:'Rajdhani',Poppins;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
-  background-color: rgba(98, 45, 163, 0.589);  
+  background-color: rgb(128, 127, 163);  
 }
 li
 {
@@ -70,7 +70,7 @@ section
 section fieldset li
 {
     font-size: 30px;
-    font-family: cursive;
+      font-family:'Rajdhani',Poppins;
 }
 legend
 {
@@ -103,21 +103,24 @@ legend
 }
 #field
 {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    align-items: center;
-    font-family:'Rajdhani';
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   font-family:'Rajdhani';
+
+
 }
 
 fieldset
 {
-    padding: 20px;
+    /* padding: 20px; */
 }
 
-#first1
+.first1
 {
     width: 350px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +131,6 @@ fieldset
     box-shadow: 0px 0px 3px 1px black;
     padding: 30px;
     background-color: rgba(27, 94, 153, 0.089);
-
 }
 
 section a
@@ -179,4 +181,21 @@ strong
         color: rgb(20, 46, 196);
     }
   
+}
+@media screen and (max-width:500px){
+
+    fieldset
+    {
+        padding: 0px;
+    }
+    section
+    {
+        padding: 10px 5px;
+        width: 80%;
+    }
+    footer
+    {
+        flex-direction: column;
+        position: relative;
+    }
 }
