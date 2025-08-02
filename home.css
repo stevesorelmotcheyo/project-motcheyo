@@ -165,7 +165,7 @@ footer
 strong
 {
     animation:shine 1s alternate infinite ;
-    color:green;
+    color:rgb(214, 218, 11);
     font-size: 40px;
 }
 h1
@@ -176,7 +176,7 @@ h1
     
     0%
     {
-        color: rgb(20, 46, 196);
+        color: rgb(200, 240, 25);
     }
   
 }
