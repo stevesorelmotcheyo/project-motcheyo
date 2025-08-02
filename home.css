@@ -138,7 +138,9 @@ section a
     font-size: 20px;
     border-radius: 6px;
     text-decoration: none;
+    box-shadow: 1px 1px 1.5px 1px rgb(59, 57, 57);
 }
+
 
 
 #first1 p
