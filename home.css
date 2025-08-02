@@ -25,6 +25,7 @@ body
   align-items: center;
   min-height: 100vh;
   background-color: rgb(128, 127, 163);  
+
 }
 li
 {
@@ -89,7 +90,7 @@ legend
     display: flex;
     flex-direction: column;
     padding: 0 30px;
-        font-family:'Rajdhani',Poppins,sans-serif;
+    font-family:'Rajdhani',Poppins,sans-serif;
 
 }
 
@@ -165,6 +166,10 @@ strong
     color:green;
     font-size: 40px;
 }
+h1
+{
+    font-size: 40px;
+}
 @keyframes shine {
     
     0%
@@ -199,5 +204,16 @@ strong
         padding: 0;
         margin: 0;
     }
-    
+    section,#projet
+    {
+        padding: 20px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    li
+    {
+        font-size: 15px;
+    }
+
 }
