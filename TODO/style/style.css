@@ -148,3 +148,13 @@ p{
     }
     
 }
+
+
+@media screen and (max-width:650px) {
+
+    #principale
+    {
+        width: 95%;
+    }
+    
+}

@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:'Rajdhani',Poppins;
+    font-family:'Rajdhani',Poppins ,sans-serif;
+    user-select: none;
 }
 header
 {
@@ -17,7 +18,7 @@ header
 }
 body
 {
-  font-family:'Rajdhani',Poppins;
+  font-family:'Rajdhani',Poppins,sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -45,7 +46,7 @@ ul li a
 
 ul,li
 {
-        font-family:'Rajdhani',Poppins;
+        font-family:'Rajdhani',Poppins,sans-serif;
 }
 
 ul li a:hover
@@ -70,7 +71,7 @@ section
 section fieldset li
 {
     font-size: 30px;
-      font-family:'Rajdhani',Poppins;
+      font-family:'Rajdhani',Poppins,sans-serif;
 }
 legend
 {
@@ -88,7 +89,7 @@ legend
     display: flex;
     flex-direction: column;
     padding: 0 30px;
-        font-family:'Rajdhani',Poppins;
+        font-family:'Rajdhani',Poppins,sans-serif;
 
 }
 
@@ -107,9 +108,7 @@ legend
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-   font-family:'Rajdhani';
-
-
+   font-family:'Rajdhani',sans-serif;
 }
 
 
@@ -183,11 +182,22 @@ strong
     section
     {
         padding: 10px 5px;
-        width: 80%;
+        width: 100%;
     }
     footer
     {
         flex-direction: column;
         position: relative;
     }
+    .first1
+    {
+        width: 300px;
+        margin: 20px 0;
+    }
+    #projet
+    {
+        padding: 0;
+        margin: 0;
+    }
+    
 }

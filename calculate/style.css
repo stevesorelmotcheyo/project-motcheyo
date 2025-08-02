@@ -1,0 +1,209 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Orbitron';
+    transition:0.5s;
+    user-select: none;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(4, 4, 32);
+    user-select: none;
+}
+#principale
+{
+    border: 1px solid black;
+    padding: 30px  20px;
+    font-size: 25px;
+    width:450px;
+    margin: 20px 0;
+    background-color: rgb(20, 27, 58);
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0) ;
+    border: 3px solid rgb(0, 217, 255);
+    font-family: Arial;
+}
+
+#Input 
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid rgb(236, 126, 0); */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+#Inpute 
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid rgb(0, 238, 255); */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+#Input input
+{
+    width: 100%;
+    padding: 10px 20px;
+    outline: 0;
+    color: white;
+    
+}
+#Inpute input
+{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+}
+#request
+{
+    font-size: 25px;
+    border-radius:6px;
+    border: 0;
+    background-color: rgba(146, 134, 158, 0.158);
+    box-shadow: 0px 0px 1px 1px white ;
+    text-align: end;
+}
+
+#response
+{
+        font-size: 25px;
+        background-color: rgba(146, 134, 158, 0.158);
+        border: none;
+        border-radius:6px;
+        box-shadow: 0px 0px 0.5px 1px white ;
+        text-align: end;
+}
+
+#Enter
+{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#start
+{
+    background-color: rgba(16, 57, 145, 0.377);
+    margin: 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 5px;
+
+}
+#signe{
+    /* background-color: yellow; */
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.nombre,.signe,.egale,.reset,.clear
+{
+    
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 10, 56);
+    width: 50px;
+    height: 50px;
+    margin: 4px ;
+    cursor: pointer;
+
+}
+.nombre
+{
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    border:3px solid rgb(0, 195, 255);
+    box-shadow: 1px 1px 1px 2px black;
+}
+
+.signe,.egale,.reset,.clear
+{
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    border:3px solid rgb(255, 153, 0);
+    box-shadow: 1px 1px 1px 2px rgb(0, 0, 0);
+
+}
+.egale
+{
+    width: 50px;
+    background-color: rgb(34, 156, 22);
+    border-color: rgb(44, 187, 168);
+
+}
+.nombre:hover
+{
+    color:rgb(255, 35, 255);
+    border-color: yellow;
+}
+.signe:hover
+{
+    color:rgb(0, 255, 213);
+    border-color: rgb(0, 255, 64);
+}
+.egale:hover
+{
+    color:rgb(255, 0, 0);
+    border-color: rgb(16, 255, 75);
+}
+.reset:hover
+{
+    color:rgb(255, 0, 0);
+    border-color: rgb(16, 255, 75);   
+}
+h1
+{
+    font-family: 'Orbitron';
+    color: white;
+}
+
+.reset,.clear
+{
+    background-color: rgb(131, 126, 126);
+    color: beige;
+    border-color: yellow;
+}
+
+
+
+
+@media screen and (max-width:460px) {
+
+    #principale{
+     
+        width:350px;
+    }
+    div
+    {
+        width: 40px;
+        height: 40px;
+    }
+    h1
+    {
+        font-size:25px;
+    }
+
+    
+}
