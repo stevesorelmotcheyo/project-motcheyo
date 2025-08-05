@@ -7,62 +7,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/home.css">
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+      <script src="./index.js" defer></script>
     <title>wolfdev-pro</title>
 </head>
 <body>
-
     <header>
-        <ul>
-            <li><a href="">home</a></li>
-            <!-- <li> <a href="">Contact</a></li> -->
-        </ul>
+       <div class="premiere">
+             <a href="#logo"><img src="./image/logo.svg" alt="Logo" id="logo"></a>
+       </div>
+       <div class="deuxieme">
+            <button id="bouton">&#9776;</button>
+            <ul class="liste">
+                <li><a href="#principale">Home</a></li>
+                <li><a href="#secondaire">About </a></li>
+                <li> <a href="#projet">Project</a></li>
+                <li><a href="#foot">Contact</a></li>
+            </ul>
+       </div>
     </header>
+        <section id="principale">
+           <div class="anime">
+                  <h1 id="h1">🖖️</h1>
+                  <div class="message">
+                    <h1 class="guys">Hi ! guy's welcome .</h1>
+                  </div>
+           </div>
+           <div class="no-leave">
+               <img src="./image/wolf.svg" alt="" id="tetu">
+           </div>
+           <div class="anime">
+              <h1 id="h1">💹️</h1>
+              <div class="message">
+                <h1 class="guys">Project website</h1>
+              </div>
+           </div>
+        </section>
+        <section id="secondaire">
 
-    <section>
-           <h1 style="font-weight: bold;  font-family:'Rajdhani';">welcome to  <strong>WOLFDEV</strong> project web site </h1>
-       <fieldset>
-        <legend>Who is Wolfdev </legend>
-        <div id="div1">
-              <ul id="liste">
-                  <li>Tamwo Motcheyo Steve Sorel  as <strong>wolfdev</strong> is a begeineer web developper. </li>
-
+           <div class="presentation">
+            <h1 id="h2">Who is wolfdev ?</h1>
+                  <li>  <strong style="color: white;">Tamwo Motcheyo Steve Sorel</strong> as <strong style="color: white;">Wolfdev</strong> is a begeineer web developper. </li>
                    <li>
                     Student in university of yaounde one  computer sciences major.</li>
                     <li >
                         Interested by Network major.
                      </li>
-              </ul>
-        </div>
-      </fieldset>
-    </section>
- 
-    <section id="projet">
-        <fieldset id="field">
-            <legend>Projects</legend>
+            </div>
 
+            <div class="photo">
+                <img src="./image/logo.svg" alt="">
+            </div>
+        </section>
+
+    <section id="projet">
+        <div id="present">
+                <h2>Projects</h2>
+        </div>
+        <div id="projet-div">
                 <div class="first1">
-                        <h2>Driving-cars🚖️</h2>
+                    <div class="title">
+                             <h2>Driving-cars</h2>
+                    </div>
+                    <div class="describe">
                         <p>  Racing car moving. Press the right arrow key to start the race. Press the back arrow key to go backward. (Just on computer) </p>
-                        <a href="./driving-cars/html/jeux.html" target="_blank">Driving-cars⭐️</a>
+                    </div>
+                    <div class="link">
+                        <a href="./driving-cars/html/jeux.html" target="_blank">Driving-cars</a>
+                    </div>
                 </div>
+
                    <div class="first1">
-                        <h2>TODO-LIST📝️</h2>
-                        <p> Todo list created by WolfDev: click on a task to mark it as done, double-click to delete it. </p>
-                        <a href="./TODO/index.html" target="_blank">Wolfdev-todo⭐️</a>
+                    <div class="title">
+                            <h2>TODO-LIST</h2>
+                    </div>
+                       <div class="describe" >
+                          <p> Todo list created by WolfDev: click on a task to mark it as done, double-click to delete it. </p>
+                       </div>
+                       <div  class="link">
+                          <a href="./TODO/index.html" target="_blank">Wolfdev-todo</a>
+                       </div>
+                      
                 </div>
                  <div class="first1">
-                        <h2>CALCULATOR🧮️</h2>
-                        <p> calculate created by WolfDev </p>
-                        <p>Enjoy Well 😀️ </p>
-                        <a href="./calculate/index.html" target="_blank">Wolfdev-Calculator⭐️</a>
+                    <div class="title">
+                              <h2>CALCULATOR</h2>
+                    </div>
+    
+                     <div class="describe"> 
+                          <p> calculate created by WolfDev </p>
+                        <p style="padding: 10px 0;">Enjoy Well 😀️ </p>
+                    </div>
+                      <div  class="link">
+                          <a href="./calculate/index.html" target="_blank">Wolfdev-Calculator</a>
+                      </div>
                 </div>
 
-        </fieldset>
-    </section>
-    <footer>
+        </div>
+
+    </section> 
+
+    <footer id="foot">
         <p>Contactez-nous: &#9993; <a href="https://mail.google.com/mail/?view=cm&to=motcheyostevesoreltamwo@gmail.com"style="color: rgb(159, 76, 241);">motcheyostevesoreltamwo@gmail.com<a></p>
         <p> &copy; wolfdev-services 2025 . All right reserved  </p>    
     </footer>
 </body>
 </html>
-
