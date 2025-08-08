@@ -138,7 +138,10 @@ strong
 }
 
 
-
+#secondaire img
+{
+    /* height: 600px; */
+}
 #projet
 {
     color: white;
@@ -205,6 +208,7 @@ strong
     text-decoration: none;
     
 }
+
 
 .link:hover
 {
