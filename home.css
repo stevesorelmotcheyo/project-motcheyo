@@ -179,7 +179,7 @@ strong
     border: 1px solid white;
     align-items: center;
     padding: 30px;
-    margin: 20px 0;
+    margin: 20px;
     width: 310px;
     height: 290px;
     border-radius: 15px;
@@ -393,6 +393,10 @@ header button
     #secondaire img
     {
         width: 300px;
+    }
+    .first
+    {
+        margin: 20px 0;
     }
     header
     {
