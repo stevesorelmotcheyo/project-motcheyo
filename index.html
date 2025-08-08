@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/home.css">
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
       <link rel="icon" type="image/svg+xml" href="./image/fave-icon.svg">
+      <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.18.2/dist/core.js"></script>
       <script src="./index.js" defer></script>
     <title>wolfdev-pro</title>
 </head>
@@ -27,12 +28,8 @@
        </div>
     </header>
         <section id="principale">
-           <div class="anime">
-                  <h1 id="h1">🖖️</h1>
-                  <div class="message">
-                    <h1 class="guys">Hi ! guy's welcome .</h1>
-                  </div>
-           </div>
+            <section>
+                  <h1 id="typewriter"></h1>
            <div class="no-leave">
                <img src="./image/wolf.svg" alt="" id="tetu">
            </div>
@@ -42,6 +39,8 @@
                 <h1 class="guys">Project website</h1>
               </div>
            </div>
+            </section>
+          
         </section>
         <section id="secondaire">
 
@@ -121,5 +120,32 @@
         <p>Contactez-nous: &#9993; <a href="https://mail.google.com/mail/?view=cm&to=motcheyostevesoreltamwo@gmail.com"style="color: rgb(159, 76, 241);">motcheyostevesoreltamwo@gmail.com<a></p>
         <p> &copy; wolfdev-services 2025 . All right reserved  </p>    
     </footer>
+
+
+<script>
+  const app = document.getElementById('typewriter');
+
+  const typewriter = new Typewriter(app, {
+    loop: true,       // recommencer en boucle
+    delay: 75,        // vitesse de frappe (ms)
+    deleteSpeed: 50,  // vitesse d'effacement
+  });
+
+  typewriter
+    .typeString("Bienvenue !")
+    .pauseFor(2000)
+    .deleteAll()
+    .typeString(" Profitez bien !")
+    .pauseFor(2000)
+    .deleteAll()
+    .typeString("Wolfdev-services ! ")
+    .pauseFor(2000)
+    .deleteAll()
+    .typeString("Present pour vous !")
+    .pauseFor(2000)
+    .start();
+</script>
+
+
 </body>
 </html>

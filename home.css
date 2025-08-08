@@ -24,7 +24,26 @@ body
   flex-direction: column;
   background-color: black;
   min-height: 100vh;
+
 }
+
+#principale section
+{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#typewriter
+{
+    font-size: 40px;
+    padding: 20px 10px;
+}
+
 #logo
 {
     width: 55px;
@@ -160,7 +179,7 @@ strong
     border: 1px solid white;
     align-items: center;
     padding: 30px;
-    margin: 20px;
+    margin: 20px 0px;
     width: 310px;
     height: 290px;
     border-radius: 15px;
@@ -303,7 +322,7 @@ header button
     {
         width:100%;
         padding: 0;
-        margin:70px 0;
+        margin:30px 0;
         border:1px solid transparent;
         border-radius: 60px;
         border: 1px solid gray;
@@ -325,7 +344,7 @@ header button
     }
     header button
     {
-        font-size: 40px;
+        font-size: 35px;
         width:45px;
         height:50px;
         background-color: rgb(18, 18, 51);
@@ -360,6 +379,11 @@ header button
         padding: 15px 100px;
         text-transform:uppercase;
         border-radius: 10px;
+    }
+    #typewriter
+    {
+        font-size: 30px;
+        /* padding: 5px 5px; */
     }
 
 }

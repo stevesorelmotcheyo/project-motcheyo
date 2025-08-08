@@ -16,3 +16,5 @@ for(let i = 0 ; i<=a.length ; i++)
       liste.classList.remove('active')  
     })
 }
+
+
