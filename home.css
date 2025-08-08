@@ -359,3 +359,16 @@ header button
     }
 
 }
+
+@media screen and (max-width:500px) {
+    
+    #secondaire img
+    {
+        width: 300px;
+    }
+    header
+    {
+        padding:8px 5px;
+    }
+
+}
