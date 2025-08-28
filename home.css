@@ -27,6 +27,32 @@ body
 
 }
 
+
+
+    #overview
+    {
+        color: rgb(0, 119, 255);
+    }
+    #html{
+        color: orangered;
+    }
+    #css
+    {
+        color: rgb(0, 81, 255);
+    }
+    #js
+    {
+        color: yellow;
+    }
+
+    fieldset
+    {
+        margin: 10px;
+        width:90%;
+    }
+
+
+
 #principale section
 {
     width: 100%;
