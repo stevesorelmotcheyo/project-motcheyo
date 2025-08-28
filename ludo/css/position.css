@@ -1,0 +1,121 @@
+
+#position1
+{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+    box-shadow: 0 0 3px black;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:40px;
+    padding: 10px;
+}
+#position1 div
+{
+    border: 1px solid black;
+    border-radius:15px;
+    background-color: rgba(0, 128, 0, 0.384);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 0px 1px;
+}
+
+#position2
+{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+    box-shadow: 0 0 3px black;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:40px;
+    padding: 10px;
+}
+#position2 div
+{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color:rgba(255, 255, 0, 0.384);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 0px 1px;
+}
+#position3
+{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+    box-shadow: 0 0 3px black;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:40px;
+    padding: 10px;   
+}
+#position3 div
+{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0.384);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 0px 1px;
+}
+#position4
+{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+    box-shadow: 0 0 3px black;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:40px;
+    padding: 10px;  
+     
+}
+#position4 div
+{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 255, 0.384);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 0px 1px;
+}
+
+.turn
+{
+    animation: steve 0.3s infinite alternate;   
+}
+
+
+
+
+.active-turn {
+  outline: 4px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: 0.3s;
+  animation: steve 0.3s infinite alternate;   
+
+  
+}
+
+
+@keyframes steve {
+  
+    0%{
+        background-color: rgba(241, 79, 15, 0.849);
+    }
+  
+}

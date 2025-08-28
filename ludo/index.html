@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="./css/style.css" />
+   <link rel="stylesheet" href="./css/plateau.css" />
+   <link rel="stylesheet" href="./css/principale.css" />
+   <link rel="stylesheet" href="./css/position.css" />
+   <link rel="stylesheet" href="./css/case.css" />
+   <link rel="stylesheet" href="css/dice.css">
+   <link rel="stylesheet" href="css/piont.css">
+   <link rel="icon" type="image/svg+xml" href="./image/fave-icon.svg">
+   <title>wolfdev-ludo</title>
+</head>
+<body>
+   <section id="principale">
+      <section id="plateau">
+         <div id="div1">
+            <div id="maison_vert">
+               <div id="position1">
+                  <div id="cercle1">
+                     <img src="image/vert/vert1.bmp" id="vert1" alt="">
+                  </div>
+                  <div id="cercle2">
+                     <img src="image/vert/vert2.bmp" id="vert2" alt="">
+                  </div>
+                  <div id="cercle3">
+                     <img src="image/vert/vert3.bmp" id="vert3" alt="">
+                  </div>
+                  <div id="cercle4">
+                     <img src="image/vert/vert4.bmp" id="vert4" alt="">
+                  </div>
+               </div>
+            </div>
+            <div id="maison1">
+               <div class="cases jaune49 vert10 rouge23 bleu36"></div>
+               <div class="cases jaune50 vert11 rouge24 bleu37"></div>
+               <div class="cases vert12 rouge25 bleu38"></div>
+               <div class="cases jaune48 vert9 rouge22 bleu35"></div>
+               <div class="cases_jaune jaune51"></div>
+               <div class="cases_jaune jaune0 vert13 rouge26 bleu39" id="debut_jaune"></div>
+               <div class="cases jaune47 vert8 rouge21 bleu34"></div>
+               <div class="cases_jaune jaune52"></div>
+               <div class="cases jaune1 vert14 rouge27 bleu40"></div>
+               <div class="cases jaune46 vert7 rouge20 bleu33"></div>
+               <div class="cases_jaune jaune53"></div>
+               <div class="cases jaune2 vert15 rouge28 bleu41"></div>
+               <div class="cases jaune45 vert6 rouge19 bleu32"></div>
+               <div class="cases_jaune jaune54"></div>
+               <div class="cases jaune3 vert16 rouge29 bleu42"></div>
+               <div class="cases jaune44 vert5 rouge18 bleu31"></div>
+               <div class="cases_jaune jaune55"></div>
+               <div class="cases jaune4 vert17 rouge30 bleu43"></div>
+            </div>
+            <div id="maison_jaune">
+               <div id="position2">
+                  <div id="cercle5">
+                     <img src="image/jaune/jaune1.bmp" id="jaune1" alt="">
+                  </div>
+                  <div id="cercle6">
+                     <img src="image/jaune/jaune1.bmp" id="jaune2" alt="">
+                  </div>
+                  <div id="cercle7">
+                     <img src="image/jaune/jaune1.bmp" id="jaune3" alt="">
+                  </div>
+                  <div id="cercle8">
+                     <img src="image/jaune/jaune1.bmp" id="jaune4" alt="">
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div id="div2">
+            <div id="maison2">
+               <div class="cases jaune38 rouge12 bleu25"></div>
+               <div class="cases_vert jaune39 vert0 rouge13 bleu26"></div>
+               <div class="cases jaune40 vert1 rouge14 bleu27"></div>
+               <div class="cases jaune41 vert2 rouge15 bleu28"></div>
+               <div class="cases jaune42 vert3 rouge16 bleu29"></div>
+               <div class="cases jaune43 vert4 rouge17 bleu30"></div>
+               <div class="cases jaune37 vert50 rouge11 bleu24"></div>
+               <div class="cases_vert vert51"></div>
+               <div class="cases_vert vert52"></div>
+               <div class="cases_vert vert53"></div>
+               <div class="cases_vert vert54"></div>
+               <div class="cases_vert vert55"></div>
+               <div class="cases jaune36 vert49 rouge10 bleu23"></div>
+               <div class="cases jaune35 vert48 rouge9 bleu22"></div>
+               <div class="cases jaune34 vert47 rouge8 bleu21"></div>
+               <div class="cases jaune33 vert46 rouge7 bleu20"></div>
+               <div class="cases jaune32 vert45 rouge6 bleu19"></div>
+               <div class="cases jaune31 vert44 rouge5 bleu18"></div>
+            </div>
+
+            <div id="milieu">
+                  <div  id="de"></div>
+            </div>
+
+
+            <div id="maison3">
+               <div class="cases jaune5 vert18 rouge31 bleu44"></div>
+               <div class="cases jaune6 vert19 rouge32 bleu45"></div>
+               <div class="cases jaune7 vert20 rouge33 bleu46"></div>
+               <div class="cases jaune8 vert21 rouge34 bleu47"></div>
+               <div class="cases jaune9 vert22 rouge35 bleu48"></div>
+               <div class="cases jaune10 vert23 rouge36 bleu49"></div>
+               <div class="cases_bleu bleu55"></div>
+               <div class="cases_bleu bleu54"></div>
+               <div class="cases_bleu bleu53"></div>
+               <div class="cases_bleu bleu52"></div>
+               <div class="cases_bleu bleu51"></div>
+               <div class="cases jaune11 vert24 rouge37 bleu50"></div>
+               <div class="cases jaune17 vert30 rouge43 bleu4"></div>
+               <div class="cases jaune16 vert29 rouge42 bleu3"></div>
+               <div class="cases jaune15 vert28 rouge41 bleu2"></div>
+               <div class="cases jaune14 vert27 rouge40 bleu1"></div>
+               <div class="cases_bleu jaune13 vert26 rouge39 bleu0"></div>
+               <div class="cases jaune12 vert25 rouge38"></div>
+            </div>
+         </div>
+
+         <div id="div3">
+            <div id="maison_rouge">
+               <div id="position3">
+                  <div id="cercle9">
+                     <img src="image/rouge/rouge1.bmp" alt="" id="rouge1">
+                  </div>
+                  <div id="cercle10">
+                     <img src="image/rouge/rouge1.bmp" alt="" id="rouge2"> 
+                  </div>
+                  <div id="cercle11">
+                     <img src="image/rouge/rouge1.bmp"alt="" id="rouge3">                         
+                  </div>
+                  <div id="cercle12">
+                     <img src="image/rouge/rouge1.bmp" alt="" id="rouge4">     
+                  </div>
+               </div>
+            </div>
+            <div id="maison4">
+               <div class="cases jaune30 vert43 rouge4 bleu17"></div>
+               <div class="cases_rouge rouge55"></div>
+               <div class="cases jaune18 vert31 rouge44 bleu5"></div>
+               <div class="cases jaune29 vert42 rouge3 bleu16"></div>
+               <div class="cases_rouge rouge54"></div>
+               <div class="cases jaune19 vert32 rouge45 bleu6"></div>
+               <div class="cases jaune28 vert41 rouge2 bleu15"></div>
+               <div class="cases_rouge rouge53"></div>
+               <div class="cases jaune20 vert33 rouge46 bleu7"></div>
+               <div class="cases jaune27 vert40 rouge1 bleu14"></div>
+               <div class="cases_rouge rouge52"></div>
+               <div class="cases jaune21 vert34 rouge47 bleu8"></div>
+               <div class="cases_rouge jaune26 vert39 rouge0 bleu13"></div>
+               <div class="cases_rouge rouge51"></div>
+               <div class="cases jaune22 vert35 rouge48 bleu9"></div>
+               <div class="cases jaune25 vert38 bleu12"></div>
+               <div class="cases jaune24 vert37 rouge50 bleu11"></div>
+               <div class="cases jaune23 vert36 rouge49 bleu10"></div>
+            </div>
+
+            <div id="maison_bleu">
+               <div id="position4">
+                  <div id="cercle13">
+                     <img src="image/bleu/bleu1.bmp" alt="" id="bleu1">
+                  </div>
+                  <div id="cercle14">
+                     <img src="image/bleu/bleu1.bmp" alt="" id="bleu2">
+                  </div>
+                  <div id="cercle15">
+                     <img src="image/bleu/bleu1.bmp" alt="" id="bleu3">
+                  </div>
+                  <div id="cercle16">
+                     <img src="image/bleu/bleu1.bmp" alt="" id="bleu4">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </section>
+
+   <!-- <audio src="./image/audio/song.mp3" controls="controls" id="audio"></audio> -->
+
+    <!-- <script src="./js/vert.js"></script>
+   <script src="./js/rouge.js"></script>
+   <script src="./js/jaune.js"></script>
+   <script src="./js/bleu.js" ></script> -->
+   <script src="./js/main.js"></script>
+
+
+</body>
+</html>

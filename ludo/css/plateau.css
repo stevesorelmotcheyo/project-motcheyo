@@ -1,0 +1,122 @@
+
+#plateau
+{   
+    width: 825px;
+    height:825px;
+    background-color: rgba(26, 26, 31, 0.747);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+/* ------------------------------------------------------------------ */
+#div1
+{
+    width: 100%;
+    height:330PX;    
+    display: flex;  
+}
+
+#maison_vert
+{
+    width: 330px;
+    height: 330px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#maison_jaune
+{
+    width: 330px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#maison1
+{
+    width: 165px;
+    height: 330px;   
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+
+
+/* -------------------------------------------------------------*/
+
+
+#div2
+{
+    width: 100%;
+    display: flex;
+    height: 165px;
+}
+#maison2
+{
+    width: 330px;
+    height: 165px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+#milieu
+{
+    width: 165px;
+    height: 165px;
+    background-color: rgba(25, 26, 26, 0.288);
+    background:linear-gradient(to right,green,yellow,red,blue);
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black inset;
+    border-radius: 2px;
+}
+#maison3
+{
+    width: 330px;
+    height: 165px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+/* ------------------------------------------------------------*/
+#div3
+{
+    width: 100%;
+    height: 330px;
+    display: flex;
+}
+
+#maison_rouge
+{
+    width: 330px;
+    height: 330px;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#maison4
+{
+    width: 165px;
+    height: 330px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+#maison_bleu
+{
+    width: 330px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#cercle1, #cercle2, #cercle3, #cercle4, #cercle5, #cercle6, #cercle7, #cercle8,
+#cercle9, #cercle10, #cercle11, #cercle12, #cercle13, #cercle14, #cercle15, #cercle16 {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  border-radius: 50%;
+  margin: 10px;
+  display: inline-block;
+  padding: 15px;
+}

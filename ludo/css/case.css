@@ -1,0 +1,68 @@
+
+.cases
+{
+    border: 1px solid black;
+    width:55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 167, 167);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.794) inset;
+    border-radius: 5px;
+     overflow: hidden;
+}
+.cases_jaune{
+   border: 1px solid black;
+    width:55px;
+    height: 55px;   
+    background-color: yellow;
+     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.794) inset;
+    border-radius: 5px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.cases_vert
+{
+    border: 1px solid black;
+    width:55px;
+    height: 55px;   
+    background-color: green;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.794) inset;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.cases_bleu
+{
+    border: 1px solid black;
+    width:55px;
+    height: 55px;   
+    background-color: blue;
+     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.794) inset;
+    border-radius: 5px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.cases_rouge
+{
+    border: 1px solid black;
+    width:55px;
+    height: 55px; 
+    background-color:red; 
+     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.794) inset;
+    border-radius: 5px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}

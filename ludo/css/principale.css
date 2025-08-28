@@ -1,0 +1,13 @@
+
+#principale
+{
+    width: 850px;
+    height: 850px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    background:linear-gradient(rgb(26, 96, 177),rgb(255, 123, 0),rgb(26, 96, 177));
+}
