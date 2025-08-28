@@ -73,6 +73,16 @@ function avance() {
 })
 
 
+// let nombrers = 0
+
+// if(nombre===0)
+// {
+//     document.body.innerHTML = 
+    
+// }
+
+
+
 document.addEventListener('keyup',(event)=>
 {
     clearInterval(interval)

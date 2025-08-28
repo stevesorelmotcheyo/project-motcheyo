@@ -179,7 +179,7 @@ strong
     border: 1px solid white;
     align-items: center;
     padding: 30px;
-    margin: 20px 0px;
+    margin: 20px ;
     width: 310px;
     height: 290px;
     border-radius: 15px;
@@ -384,6 +384,15 @@ header button
     {
         font-size: 30px;
         /* padding: 5px 5px; */
+    }
+    #projet
+    {
+        padding: 0;
+        margin: 0;
+    }
+    #projet-div
+    {
+        padding: 20px 0;
     }
 
 }
