@@ -160,8 +160,9 @@ footer
 }
 .photo img
 {
-    width: 450px;
-    border-radius: 1555px;
+    width: 600px;
+    /* height: 300px; */
+    border-radius:55px;
 }
 #secondaire li
 {

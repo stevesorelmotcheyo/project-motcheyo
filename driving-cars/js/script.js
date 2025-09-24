@@ -1,5 +1,4 @@
 
-
 let car = document.querySelector('.car');
 let nombre = 0;
 let interval = null ;
@@ -12,7 +11,19 @@ let cars = document.querySelector('.cars');
 let interval4 = null
 let position = 1000;
 
+
 let backgroundX = 0;
+
+
+let go = document.querySelector('.go')
+let back = document.querySelector('.back')
+let up = document.querySelector('.up')
+let down = document.querySelector('.down')
+
+
+
+
+
 function avance() {
   backgroundX -= 15; 
   document.querySelector('.premiere').style.backgroundPosition = `${backgroundX}px 0`;
@@ -21,6 +32,9 @@ function avance() {
     backgroundX += 15; 
     document.querySelector('.premiere').style.backgroundPosition = `${backgroundX}px 0`;
 } 
+
+
+
  document.addEventListener('keydown',async(event)=>{
 
     switch(event.key)
@@ -72,20 +86,59 @@ function avance() {
     }
 })
 
-
-// let nombrers = 0
-
-// if(nombre===0)
-// {
-//     document.body.innerHTML = 
-    
-// }
-
-
-
 document.addEventListener('keyup',(event)=>
 {
     clearInterval(interval)
 })
+
+
+go.addEventListener('click',()=>{
+    clearInterval(interval2);
+        clearInterval(interval);
+        clearInterval(interval3);
+        interval2 = setInterval(avance, 15);
+        interval = setInterval(()=>
+            {
+                if(nombre>((window.innerWidth/2)-200))
+                {
+                    clearInterval(interval);
+                    return
+                }
+                nombre+=2;
+                car.style.left  = nombre + "px";
+                audio.play();
+            },2)     
+})
+
+back.addEventListener('click',()=>{
+     clearInterval(interval3)
+        clearInterval(interval);
+        clearInterval(interval2)
+         interval3 = setInterval(reculer, 15);
+  
+           interval = setInterval(()=>
+            {
+                if(nombre===0)
+                {
+                    clearInterval(interval);
+                    return
+                }
+                nombre-=2;
+                car.style.left  = nombre + "px";
+                audio.play();
+
+            },2)
+})
+
+up.addEventListener('click',()=>{
+    car.style.top = 600 + "px";  
+})
+
+down.addEventListener('click',()=>{
+    car.style.top = 700 + "px";
+})
+
+
+
 
 

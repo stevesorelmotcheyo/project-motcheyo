@@ -13,8 +13,6 @@ let sec = 0,min = 0,heu = 0;
 
 let intervale ;
 
-let aud = document.getElementById("music");
-
 
 function demarrer(){
 
@@ -33,13 +31,11 @@ function demarrer(){
             heure.innerHTML = heu + " h " ;
             min = 0;
         }
-        console.log(aud.currentTime);
-
+     
     },1000);
 }
 
-aud.currentTime = 78.094024 ;
-aud.play();
+
 
 stop.disabled = true;
 clear.disabled = true ;
